@@ -3,6 +3,7 @@
   "version": "3.12.0",
   "description": "Simplified Kubernetes API client.",
   "main": "lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
     "check-coverage": "istanbul check-coverage",
     "coverage": "istanbul cover ./node_modules/.bin/_mocha && istanbul report cobertura",
@@ -27,6 +28,7 @@
     "lib"
   ],
   "dependencies": {
+    "@types/node": "^8.0.16",
     "assign-deep": "^0.4.5",
     "async": "^2.4.1",
     "js-yaml": "^3.7.0",
